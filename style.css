@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 36px;
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+form {
+  margin: 64px 64px 64px 64px;
+}
+
+.grid--4cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
